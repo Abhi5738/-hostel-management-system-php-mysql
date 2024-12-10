@@ -23,19 +23,20 @@ Created using PHP & MySQL
 ## Login Details
 
 - Admin
-  - Username: manager.at1@gmail.com
+
+  - Username: Ankit.at1@gmail.com
   - Password: at1
 
 - Student
-    - Username: muhammaddanish1458@gmail.com
-    - Password: danish
+  - Username: Abhi1458@gmail.com
+  - Password: danish
 
 Important! For database reference the passwords are md5 encrypted in database
-
 
 ## Features
 
 Admin:
+
 - [x] Admin Login
 - [x] Update Login/Personal Details
 - [x] Mark Attendance
@@ -45,6 +46,7 @@ Admin:
 - [x] Update Student Parcel details
 
 Student:
+
 - [x] Student Login
 - [x] Update details
 - [x] Dispaly Attendance Details
