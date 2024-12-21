@@ -24,12 +24,12 @@ Created using PHP & MySQL
 
 - Admin
 
-  - Username: Ankit.at1@gmail.com
-  - Password: at1
+  - Username: admin@gmail.com
+  - Password: admin
 
 - Student
-  - Username: Abhi1458@gmail.com
-  - Password: danish
+  - Username: sandeepkumar@gmail.com
+  - Password: sandeepkumar
 
 Important! For database reference the passwords are md5 encrypted in database
 

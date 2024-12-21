@@ -40,7 +40,7 @@ CREATE TABLE `adminlogin` (
 
 LOCK TABLES `adminlogin` WRITE;
 /*!40000 ALTER TABLE `adminlogin` DISABLE KEYS */;
-INSERT INTO `adminlogin` VALUES ('manager.at1@gmail.com','f4cba934d76a80a7381ba45e1142bdd9',1234),('manager.at2@gmail.com','41d10fdbfcb7298747ce6c6c04b52011',1235);
+INSERT INTO `adminlogin` VALUES ('admin@gmail.com','21232f297a57a5a743894a0e4a801fc3',1234);
 /*!40000 ALTER TABLE `adminlogin` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -187,7 +187,7 @@ CREATE TABLE `manager` (
 
 LOCK TABLES `manager` WRITE;
 /*!40000 ALTER TABLE `manager` DISABLE KEYS */;
-INSERT INTO `manager` VALUES (1234,'Muhammad Aftab','...','...','...','manager.at1@gmail.com','Male','...','1'),(1235,'Muhammad Ali','...','...','...','manager.at2@gmail.com','Male','...','2');
+INSERT INTO `manager` VALUES (1234,'Sandeep Kumawat','...','...','...','manager.at1@gmail.com','Male','...','1'),(1235,'Raj kumar','...','...','...','manager.at2@gmail.com','Male','...','2');
 /*!40000 ALTER TABLE `manager` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -489,7 +489,7 @@ CREATE TABLE `student` (
 
 LOCK TABLES `student` WRITE;
 /*!40000 ALTER TABLE `student` DISABLE KEYS */;
-INSERT INTO `student` VALUES (366885,'Muhammad Danish Azeem','Muhammad Tariq Naveed','Habibabad','muhammaddanish1458@gmail.com','03135692472','3510344164163','Male','SEECS','1',1),(371303,'Muhammad Zaeem','Khalid','Rawalpindi','zaeem@gmail.com','03004445719','42501','Male','SEECS','1',2),(425648,'Muhammad Luqman Ahmad','Noor Muhammad','Chakwal','luqman@gmail.com','03001234567','4256','Male','S3H','1',1);
+INSERT INTO `student` VALUES (366885,'Sandeep Kumar','Sandeep Kumar','Nawalgarh','sandeepkumar@gmail.com','03135692472','3510344164163','Male','MCA','1',1);
 /*!40000 ALTER TABLE `student` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -600,7 +600,7 @@ CREATE TABLE `studentlogin` (
 
 LOCK TABLES `studentlogin` WRITE;
 /*!40000 ALTER TABLE `studentlogin` DISABLE KEYS */;
-INSERT INTO `studentlogin` VALUES ('luqman@gmail.com','4781c13b4bf9b7288a343fd274ff0310',425648),('muhammaddanish1458@gmail.com','5b119a961fcb523c81c25e8f79de2380',366885),('zaeem@gmail.com','fd829f4e69e7b91e89c1d1aa31effb98',371303);
+INSERT INTO `studentlogin` VALUES ('sandeepkumar@gmail.com','c48fbc0a651cd365977df3026f237ce4',366885);
 /*!40000 ALTER TABLE `studentlogin` ENABLE KEYS */;
 UNLOCK TABLES;
 
